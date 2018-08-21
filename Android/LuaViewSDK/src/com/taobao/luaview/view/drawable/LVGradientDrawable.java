@@ -62,6 +62,7 @@ public class LVGradientDrawable extends GradientDrawable {
         return mCornerRadius;
     }
 
+
     public int getColor() {
         return mColor;
     }

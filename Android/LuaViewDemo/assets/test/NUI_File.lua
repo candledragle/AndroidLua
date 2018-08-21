@@ -16,15 +16,25 @@ http.get("http://www.baidu.com", {
 }, function(response)
     local data = response:data()
 
+    print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx start:")
+    local build = luajava.bindClass("android.os.Build");
+    print(build:getString("ro.product.device"))
+    print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx device:",build:getString("ro.product.device"))
+
     print(data)
     test1(data)
     test2(data)
     test3(data)
+    getDevice()
 end)
 
 
 function test1(data)
     print("-------------------------test1---------------------")
+    print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx start:")
+    local build = luajava.bindClass("android.os.Build");
+    print(build:getString("ro.product.device"))
+    print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx device:",build:getString("ro.product.device"))
     print("save", File.save(data, "test.html"))
     print("read", File.read("test.html"))
     print("path", File.path("test.html"))
@@ -90,3 +100,16 @@ http.get("https://gju1.alicdn.com/bao/uploaded/i4/100000120700895002/TB2Qu0_fXXX
         img2.image(data)
     end)
 end)
+
+function getDevice()
+    print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx start:")
+    local build = luajava.bindClass("android.os.Build");
+    print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx device:")
+    if(build == nil) then
+        print("build is nil");
+    end
+
+    return build:getString("ro.product.device")
+end
+
+

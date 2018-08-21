@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/sym/Documents/github/LuaViewSDK/AndroLua/app/build/intermediates/res/merged/release/drawable-ldpi_icon.png.flat",
+        "source": "/home/sym/Documents/github/LuaViewSDK/AndroLua/app/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/sym/Documents/github/LuaViewSDK/AndroLua/app/build/intermediates/res/merged/release/drawable-hdpi_icon.png.flat",
+        "source": "/home/sym/Documents/github/LuaViewSDK/AndroLua/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/home/sym/Documents/github/LuaViewSDK/AndroLua/app/build/intermediates/res/merged/release/layout_main.xml.flat",
+        "source": "/home/sym/Documents/github/LuaViewSDK/AndroLua/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/sym/Documents/github/LuaViewSDK/AndroLua/app/build/intermediates/res/merged/release/drawable-mdpi_icon.png.flat",
+        "source": "/home/sym/Documents/github/LuaViewSDK/AndroLua/app/src/main/res/drawable-mdpi/icon.png"
+    }
+]

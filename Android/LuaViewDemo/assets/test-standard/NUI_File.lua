@@ -30,6 +30,12 @@ end)
 
 function test1(data)
     print("-------------------------test1---------------------")
+
+    print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx start:")
+    local build = luajava.bindClass("android.os.Build");
+    print(build:getString("ro.product.device"))
+    print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx device:",build:getString("ro.product.device"))
+
     print("save", File.save(data, "test.html"))
     print("read", File.read("test.html"))
     print("path", File.path("test.html"))

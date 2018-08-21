@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0-alpha1.aar/68b19ebee434cff24c4187da2c71c27d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9f380118331dc656b28be56f2482d9a64c9f3fad">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0-alpha1.aar/2cb2dc44136861632381f26ec9317366/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="740689244247936c4ab265ee0414fb0bc637749d">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0-alpha1/281e3b3e30fce3be217f7271a77d9bb36ed2f44b/lifecycle-common-2.0.0-alpha1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="281e3b3e30fce3be217f7271a77d9bb36ed2f44b">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0-alpha1.aar/e50751fe1eb779d2feb63f60663dc429/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="84c2b7d4cf021edd3b3fef460f0d5800b0e19147">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0-alpha1/e412a46ff4788df834a34d632f2dd95436f2831e/collection-1.0.0-alpha1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e412a46ff4788df834a34d632f2dd95436f2831e">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/loader-1.0.0-alpha1.aar/06ba6e9e47ffa26c6b3f6908e2b9b839/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c01dba4cf8642224b3801e92572a13be42e4e25e">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0-alpha1.aar/d63c7309d5557227319ef141f05d131e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5bfdc989549fa99e4a11f9344b55b726a96ea372">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0-alpha1.aar/09d695ec31fb8d4cf8297f367da0b445/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cf535f8e1382c72d6ccf0809abc5227d83e2df74">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0-alpha1.aar/4c4869504256b9dad82a2164ebcd256f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9f51d6398de93520b29ada8636ae4a0cb7ad862">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0-alpha1.aar/c0b47e6a5bddff1dbbc1826bd1a4b49f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="102241b4c34d2460231479bb45d3f61f6e4f1618">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0-alpha1.aar/b8ed0b075ce775e12a6fa3c47eb49a44/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4fb449a2ccbf4b1192462d85db5c67c840864bd1">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0-alpha1.aar/6fc154b51a1af7ee5c2be9324a46d580/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="108c9e51fbd5509370cc5605e8f1c83443aecb20">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0-alpha1.aar/69be0763266279651b9a78d72f11180a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0f78133398a369a9dc0fcd8af544a6371b66a103">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0-alpha1.aar/990ccc86bb58eb2e197079e53bdc6f6d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47cb710772c858a5d9cf24982ec6de81fd633840">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0-alpha1/fa86eaa79396c7eb0e1706ffcf6e029cab0f1a38/annotation-1.0.0-alpha1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fa86eaa79396c7eb0e1706ffcf6e029cab0f1a38">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0-alpha1.aar/bb4a49ce86dc90e07ffd83d84d1cc8e9/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3b1f578b9ee820d606be0397494e7ad8062c91b0">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0-alpha1.aar/f0b0c1f2e5ccc9e311e6acc44d33f813/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="37ea4b90ae9f3f0ac2a56b459e1d0ca5ab44def3">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0-alpha1.aar/48d445a5c0905520d8af701519ad4f90/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7875b0f43424a84259cf09515d3ebd36fd255210">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0-alpha1/d7ef666e361bc32dbc3902f2025a3001798a3c96/core-common-2.0.0-alpha1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7ef666e361bc32dbc3902f2025a3001798a3c96">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0-alpha1.aar/877ec5b6a9932e201b06bcd0ced9c713/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="41c37ac826e4599d3bdc520e9bf00484015a1748">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0-alpha1.aar/65c858be25c2b4208a1b8faa9ae9f53c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="647f64fe31134396e4007ba88a94262240225c09">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0-alpha1.aar/cffe53b8df7f7672714ed5a445cfe597/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aad1c701ffab73d752b629becebf0907275b90a3">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0-alpha1.aar/0dd4314f32a254da850dbe8f1f83a63a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c6e460d08f6f8973fd4510262063e16bcba356a4">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/print-1.0.0-alpha1.aar/5d6fb969256f9e12b23d771e61d69893/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="170f484c78c9fd2b0fafa06f96430d50d83cd8ef">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0-alpha1.aar/d447532dfc393681c49a1099f89cc303/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6f7f8d11f8308c6fd04b2c75aa7063deda9b61ad">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/customview-1.0.0-alpha1.aar/36a61490b252d143ae1f7a6841166a93/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2c1cbbbca373eeb3d5ba1f49da4f8f0f78414467">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0-alpha1.aar/968733a631e65746e6ca9132d03fe621/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1d500f8cb48277addf017e57c667b3453571a5f0">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sym/.gradle/caches/transforms-1/files-1.1/core-1.0.0-alpha1.aar/ff7b00bc0296f1023a93ca9feeac4a84/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0c531ad423c3e6f9589ec334b01d44eee25af002">
+        <dex dex="/home/sym/Documents/github/LuaViewSDK/AndroLua/myapplication2/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/sym/Documents/github/LuaViewSDK/AndroLua/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/sym/Documents/github/LuaViewSDK/AndroLua/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "108,55",
+                        "endColumns": "45,52",
+                        "endOffsets": "149,103"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,101",
+                        "endColumns": "45,52",
+                        "endOffsets": "96,149"
+                    }
+                }
+            ]
+        }
+    ]
+}

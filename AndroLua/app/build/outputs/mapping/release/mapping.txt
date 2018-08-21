@@ -1,0 +1,127 @@
+org.keplerproject.luajava.CPtr -> org.keplerproject.luajava.a:
+    long peer -> a
+    boolean equals(java.lang.Object) -> equals
+    void <init>() -> <init>
+org.keplerproject.luajava.JavaFunction -> org.keplerproject.luajava.b:
+    org.keplerproject.luajava.LuaState L -> a
+    void <init>(org.keplerproject.luajava.LuaState) -> <init>
+    void register(java.lang.String) -> a
+org.keplerproject.luajava.LuaException -> org.keplerproject.luajava.c:
+    void <init>(java.lang.String) -> <init>
+org.keplerproject.luajava.LuaState -> org.keplerproject.luajava.LuaState:
+    java.lang.Integer LUA_GLOBALSINDEX -> a
+    java.lang.Integer LUA_REGISTRYINDEX -> b
+    java.lang.Integer LUA_TNONE -> c
+    java.lang.Integer LUA_TNIL -> d
+    java.lang.Integer LUA_TBOOLEAN -> e
+    java.lang.Integer LUA_TLIGHTUSERDATA -> f
+    java.lang.Integer LUA_TNUMBER -> g
+    java.lang.Integer LUA_TSTRING -> h
+    java.lang.Integer LUA_TTABLE -> i
+    java.lang.Integer LUA_TFUNCTION -> j
+    java.lang.Integer LUA_TUSERDATA -> k
+    java.lang.Integer LUA_TTHREAD -> l
+    java.lang.Integer LUA_MULTRET -> m
+    java.lang.Integer LUA_ERRRUN -> n
+    java.lang.Integer LUA_YIELD -> o
+    java.lang.Integer LUA_ERRSYNTAX -> p
+    java.lang.Integer LUA_ERRMEM -> q
+    java.lang.Integer LUA_ERRERR -> r
+    org.keplerproject.luajava.CPtr luaState -> A
+    int stateId -> B
+    java.lang.Integer LUA_GCSTOP -> s
+    java.lang.Integer LUA_GCRESTART -> t
+    java.lang.Integer LUA_GCCOLLECT -> u
+    java.lang.Integer LUA_GCCOUNT -> v
+    java.lang.Integer LUA_GCCOUNTB -> w
+    java.lang.Integer LUA_GCSTEP -> x
+    java.lang.Integer LUA_GCSETPAUSE -> y
+    java.lang.Integer LUA_GCSETSTEPMUL -> z
+    void <init>(int) -> <init>
+    org.keplerproject.luajava.CPtr _open() -> _open
+    void _setTop(org.keplerproject.luajava.CPtr,int) -> _setTop
+    void _remove(org.keplerproject.luajava.CPtr,int) -> _remove
+    void _insert(org.keplerproject.luajava.CPtr,int) -> _insert
+    java.lang.String _toString(org.keplerproject.luajava.CPtr,int) -> _toString
+    int _objlen(org.keplerproject.luajava.CPtr,int) -> _objlen
+    void _pushNil(org.keplerproject.luajava.CPtr) -> _pushNil
+    void _pushString(org.keplerproject.luajava.CPtr,java.lang.String) -> _pushString
+    void _getField(org.keplerproject.luajava.CPtr,int,java.lang.String) -> _getField
+    void _setField(org.keplerproject.luajava.CPtr,int,java.lang.String) -> _setField
+    void _rawSetI(org.keplerproject.luajava.CPtr,int,int) -> _rawSetI
+    int _pcall(org.keplerproject.luajava.CPtr,int,int,int) -> _pcall
+    void _concat(org.keplerproject.luajava.CPtr,int) -> _concat
+    void _pop(org.keplerproject.luajava.CPtr,int) -> _pop
+    void _setGlobal(org.keplerproject.luajava.CPtr,java.lang.String) -> _setGlobal
+    void _getGlobal(org.keplerproject.luajava.CPtr,java.lang.String) -> _getGlobal
+    int _LloadString(org.keplerproject.luajava.CPtr,java.lang.String) -> _LloadString
+    void _openLibs(org.keplerproject.luajava.CPtr) -> _openLibs
+    void setTop(int) -> a
+    void remove(int) -> b
+    void insert(int) -> c
+    java.lang.String toString(int) -> d
+    int objLen(int) -> e
+    void pushNil() -> a
+    void pushString(java.lang.String) -> a
+    void getField(int,java.lang.String) -> a
+    void setField(int,java.lang.String) -> b
+    void rawSetI(int,int) -> a
+    int pcall(int,int,int) -> a
+    void concat(int) -> f
+    int LloadString(java.lang.String) -> b
+    void pop(int) -> g
+    void getGlobal(java.lang.String) -> c
+    void setGlobal(java.lang.String) -> d
+    void openLibs() -> b
+    void luajava_open(org.keplerproject.luajava.CPtr,int) -> luajava_open
+    void _pushJavaObject(org.keplerproject.luajava.CPtr,java.lang.Object) -> _pushJavaObject
+    void _pushJavaFunction(org.keplerproject.luajava.CPtr,org.keplerproject.luajava.JavaFunction) -> _pushJavaFunction
+    void pushJavaObject(java.lang.Object) -> a
+    void pushJavaFunction(org.keplerproject.luajava.JavaFunction) -> a
+    void <clinit>() -> <clinit>
+org.keplerproject.luajava.LuaStateFactory -> org.keplerproject.luajava.d:
+    java.util.List states -> a
+    org.keplerproject.luajava.LuaState newLuaState() -> a
+    int getNextStateIndex() -> b
+    void <clinit>() -> <clinit>
+sk.kottman.androlua.Main -> sk.kottman.androlua.Main:
+    android.widget.Button execute -> a
+    android.widget.EditText source -> b
+    android.widget.TextView status -> c
+    org.keplerproject.luajava.LuaState L -> d
+    java.lang.StringBuilder output -> e
+    android.os.Handler handler -> f
+    sk.kottman.androlua.Main$ServerThread serverThread -> g
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onPause() -> onPause
+    java.lang.String safeEvalLua(java.lang.String) -> a
+    java.lang.String evalLua(java.lang.String) -> b
+    void onClick(android.view.View) -> onClick
+    java.lang.String errorReason(int) -> a
+    boolean onLongClick(android.view.View) -> onLongClick
+sk.kottman.androlua.Main$1 -> sk.kottman.androlua.Main$1:
+    sk.kottman.androlua.Main this$0 -> b
+    void <init>(sk.kottman.androlua.Main,org.keplerproject.luajava.LuaState) -> <init>
+sk.kottman.androlua.Main$2 -> sk.kottman.androlua.Main$2:
+    sk.kottman.androlua.Main this$0 -> b
+    void <init>(sk.kottman.androlua.Main,org.keplerproject.luajava.LuaState) -> <init>
+sk.kottman.androlua.Main$ServerThread -> sk.kottman.androlua.Main$a:
+    boolean stopped -> a
+    sk.kottman.androlua.Main this$0 -> b
+    void <init>(sk.kottman.androlua.Main) -> <init>
+    void run() -> run
+    void show(java.lang.String) -> a
+    void <init>(sk.kottman.androlua.Main,sk.kottman.androlua.Main$1) -> <init>
+sk.kottman.androlua.Main$ServerThread$1 -> sk.kottman.androlua.Main$a$1:
+    java.lang.String val$s -> a
+    java.io.PrintWriter val$out -> b
+    sk.kottman.androlua.Main$ServerThread this$1 -> c
+    void <init>(sk.kottman.androlua.Main$ServerThread,java.lang.String,java.io.PrintWriter) -> <init>
+    void run() -> run
+sk.kottman.androlua.Main$ServerThread$2 -> sk.kottman.androlua.Main$a$2:
+    java.lang.String val$s -> a
+    sk.kottman.androlua.Main$ServerThread this$1 -> b
+    void <init>(sk.kottman.androlua.Main$ServerThread,java.lang.String) -> <init>
+    void run() -> run

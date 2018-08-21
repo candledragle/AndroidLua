@@ -10,6 +10,7 @@ package com.taobao.luaview.demo.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.taobao.luaview.demo.provider.GlideImageProvider;
 import com.taobao.luaview.demo.ui.CustomError;
@@ -23,7 +24,9 @@ import com.taobao.luaview.util.JsonUtil;
 import com.taobao.luaview.util.LogUtil;
 import com.taobao.luaview.view.LVLoadingDialog;
 
+import org.luaj.vm2.Globals;
 import org.luaj.vm2.LuaValue;
+import org.luaj.vm2.lib.jse.JsePlatform;
 
 /**
  * 通过LuaView、注入bridge对象，实现Lua-Java通信
@@ -44,6 +47,34 @@ public class DemoLuaViewActivity extends Activity {
         initActionBar();
         showLoading();
         createLuaViewAsync();
+
+        /*Globals globals = JsePlatform.standardGlobals();
+//加载脚本文件login.lua，并编译
+        globals.loadfile("file:///android_asset/devices.lua").call();
+//获取无参函数hello
+        LuaValue func = globals.get(LuaValue.valueOf("hello"));
+//执行hello方法
+        func.call();
+
+        LuaValue test = globals.get(LuaValue.valueOf("test"));
+
+        String data = test.call(LuaValue.valueOf("I,m from Java!")).toString();
+        //Log.i(TAG,data);
+
+        //call java method
+
+        LuaValue callJavaMethod = globals.get(LuaValue.valueOf("callJavaMethod"));
+//执行callJavaMethod方法
+        callJavaMethod.call();
+
+        LuaValue callJavaStaticMethod = globals.get(LuaValue.valueOf("callJavaStaticMethod"));
+//执行callJavaMethod方法
+        callJavaStaticMethod.call();
+
+
+        LuaValue getDevice = globals.get(LuaValue.valueOf("getDevice"));
+//执行callJavaMethod方法
+        getDevice.call();*/
     }
 
     private void initActionBar() {
